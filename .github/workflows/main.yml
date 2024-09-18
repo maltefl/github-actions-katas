@@ -25,6 +25,6 @@ jobs:
           path: .
       - name: Run linting
         uses: super-linter/super-linter/slim@v5
-        with:
+        env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
