@@ -24,7 +24,7 @@ jobs:
           name: code
           path: .
       - name: Run linting
-        uses: super-linter/super-linter/slim
+        uses: super-linter/super-linter/slim@v5
         with:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
